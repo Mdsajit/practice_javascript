@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <title>BT5</title>
+  </head>
+  <body>
+    <!--what can javascript-->
+    <div class="container">
+    <h1 class="text-center display-4 mt-2">What can Javascript do?</h1>
+    <p id="heading" class="mx-5">Javascript can change HTML content</p>
+    <button onclick="myFunction()" class="btn-danger mx-5" type="button">
+      Click Me!
+    </button>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">Javascript in Head</h2>
+      <p id="part" class="mx-5">A Paragraph</p>
+      <button type="button" class="btn-success mx-5" onclick="myFunctionOne()">Try it</button>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">My first paragraph</h2>
+      <p>My first Web Page</p>
+      <p id="web"></p>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">My second Web Page.</h2>
+      <p>My first Paragraph</p>
+      <p>Never call document.write after the document has finished loading. It will overwrite the whole document.</p>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2"> My third Web page.</h2>
+      <p>My second eassy.</p>
+    </div>
+
+    <div class="container">
+      <h2 class="text-center display-4 mt-2"> Activate Debugging</h2>
+      <p>Then select "console" in the debugger menu.</p>
+      <p>Then click Run again.</p>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">
+        The Window.print() Method
+      </h2>
+      <p>Click the button to print the current page.</p>
+      <button class="btn-primary mb-4" onclick="window.print()" class="btn-success mx-5">Print this page</button>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">Javascript Statements</h2>
+      <p>A<b>Javascript Program</b> is a list of<b>statesments</b> to be executed by a programmer.</p>
+      <p id="stateOne"></p>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">Javascript Statements two</h2>
+      <p>Javascript statesment are separated by semicolons.</p>
+      <p id="stateTwo"></p>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">Javascript Statements three</h2>
+      <p>Javascript code blocks are written between { and }</p>
+      <button class="btn-primary" type="button" onclick="myFunctionFirst()">Click Me!</button>
+      <p id="demotwo"></p>
+      <p id="demothree"></p>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">Javascript Strings</h2>
+      <p>String can be written with double or single quotes.</p>
+      <p id="stringone"></p>
+
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">Javascript Numbers</h2>
+      <p>Number can be written with or without decimals.</p>
+      <p id="stringtwo"></p>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">Javascript Expressions</h2>
+      <p>Expressions compute to value.</p>
+      <p id="stringeleven"></p>
+    </div>
+    <div class="container">
+      <h2 class="text-center display-4 mt-2">Javascript Expressions two</h2>
+      <p>Expressions compute to value.</p>
+      <p id="stringtwelve"></p>
+    </div>
+    <hr>
+
+    <section>
+      <div class="container py-5">
+        <h1 class="text-info font-weight-bold text-center">Try to use fan on off function.</h1>
+        <div class="wrapper text-center">
+          <img class="img-fluid d-block m-auto" src="images/fanoff.jpg" alt="" id="fanImages">
+          <button type="button" class="btn btn-primary" onclick="onFan()">ON FAN</button>
+          <button type="button" class="btn btn-primary" onclick="offFan()">OFF FAN</button>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section>
+      <div class="container">
+        <h1 class="display-4 text-center text-success"> Changed text</h1>
+        <button type="button" class="btn btn-danger" onclick="textChange()">Click Me</button>
+        <h2 id="h2" class="h2 text-info font-weight-bold text-center">Welcome to My portfolio.</h2>
+        <h2 id="h2" class="h2 text-danger font-weight-bold text-center">Welcome to My portfolio.</h2>
+        <h2 id="h2" class="h2 text-info font-weight-bold text-center">Welcome to My portfolio.</h2>
+      </div>
+    </section>
+    <hr>
+    <!--data change-->
+    <section>
+      <div class="container">
+        <h1 id="h1" class="text-success text-center">
+          Click the button to change the date.
+        </h1>
+        <button type="button" class="btn btn-primary" onclick="textChangeOne()">
+          Click Me
+        </button>
+      </div>
+    </section>
+    <hr>
+    <section>
+      <div class="container">
+        <h3 id="h1two" class="text-success text-center">
+          Click the button to change font-size of text.
+        </h3>
+        <button type="button" class="btn btn-success" onclick="textChangeTwo()">
+          Click Me
+        </button>
+      </div>
+    </section>
+    <hr>
+     <section>
+      <div class="container">
+        <h3 id="h3four" class="text-success text-center">
+          Click the button to find a border.
+        </h3>
+        <button type="button" class="btn btn-info" onclick="textChangeFour()">
+          Click Me
+        </button>
+      </div>
+    </section>
+    <hr>
+     <section>
+      <div class="container">
+        <h3 id="h5five" class=" text-center">
+          Click the button to change the font color.
+        </h3>
+        <button type="button" class="btn btn-warning" onclick="textChangeFive()">
+          Change color
+        </button>
+      </div>
+    </section>
+    <br>
+    <hr>
+    <section class="mb-4">
+      <div class="container">
+        <h1>Click the button to change the image.</h1>
+        <button type="button" class="btn btn-success" onclick="imgNine()">First Image</button>
+        <button type="button" class="btn btn-danger"  onclick="imgTen()">Second Image</button>
+
+        <img src="images/one.jpg" id="img1" alt="">
+      </div>
+    </section>
+
+
+   <!-- JS links-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+  </html>
